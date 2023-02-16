@@ -5,3 +5,4 @@ gcc $CFILE -o cisfun
 hello puts
 Hello, printf
 Size is not grandeur, and territory does not make a nation
+Intel
