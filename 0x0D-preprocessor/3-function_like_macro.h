@@ -1,12 +1,4 @@
-#include <stdio.h>
-
-/**
- *  main - prints the name of the file
- *
- *  Return: Always 0 (Success)
- */
-int ain(void)
-{
-	printf("%s\n", __FILE__);
-	return (0);
-}
+#ifndef ABS_H
+#define ABS_H
+#define ABS(x) ((x) > 0 ? (x) : (x) * -1)
+#endif
